@@ -22,3 +22,13 @@ git clone https://github.com/LukeCOULON/multilaunch-install.git && cd multilaunc
 ```
 
 La page présente la version 0.0.6, Windows/Linux, la détection non destructive documentée dans le scanner, la configuration Wine/Proton, le diagnostic et l'installation.
+
+
+## Téléchargement Windows
+
+Le site propose un bouton de téléchargement vers `downloads/MultiLaunch-Windows.zip`.
+Ce ZIP doit contenir :
+- `MultiLaunch-Setup.exe`
+- `windows/multilaunch.exe`
+
+Les exécutables ne sont pas inclus dans cette archive source car ils n'étaient pas présents dans les fichiers fournis. Placez les vrais exécutables aux emplacements indiqués puis générez `downloads/MultiLaunch-Windows.zip` avec le script de publication fourni dans `build-windows-zip.ps1`.

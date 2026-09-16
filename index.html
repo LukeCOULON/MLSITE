@@ -37,7 +37,7 @@
           depuis un seul endroit.
         </p>
         <div class="hero-actions">
-          <a class="button primary" href="#install">Installer maintenant <span>→</span></a>
+          <a class="button primary" href="#install"> Télécharger pour Windows <span>↓</span></a>
           <a class="button secondary" href="#screens">Voir l'interface</a>
         </div>
         <div class="trust-row">
@@ -159,13 +159,30 @@
           <p>Clonez le dépôt officiel puis lancez l'installateur. Une seule commande suffit.</p>
         </div>
 
+        <div class="download-card">
+          <div class="download-copy">
+            <span class="download-badge">WINDOWS</span>
+            <h3>Téléchargez les deux fichiers</h3>
+            <p>Les deux fichiers sont nécessaires. Téléchargez-les et gardez-les dans le même dossier.</p>
+            <p class="download-warning"><strong>Ensuite, lancez uniquement MultiLaunch-Setup.exe</strong> pour installer MultiLaunch. Ne lancez pas multilaunch.exe directement.</p>
+          </div>
+          <div class="download-actions">
+            <a class="button primary" href="downloads/MultiLaunch-Setup.exe" download>
+              Télécharger MultiLaunch-Setup.exe <span>↓</span>
+            </a>
+            <a class="button secondary" href="downloads/multilaunch.exe" download>
+              Télécharger multilaunch.exe <span>↓</span>
+            </a>
+          </div>
+        </div>
+
         <div class="terminal">
           <div class="terminal-head">
             <span><i></i><i></i><i></i></span>
             <span>terminal</span>
             <button id="copyBtn">Copier</button>
           </div>
-          <pre id="command">Invoke-WebRequest -Uri "https://github.com/LukeCOULON/multilaunch-install/archive/refs/heads/main.zip" -OutFile "multilaunch.zip"; Expand-Archive "multilaunch.zip" -DestinationPath "." -Force; cd "multilaunch-install-main"; python install.py</pre>
+          <pre id="command">git clone https://github.com/LukeCOULON/multilaunch-install.git && cd multilaunch-install && python3 install.py</pre>
           <div id="copyStatus" class="copy-status" aria-live="polite"></div>
         </div>
 
@@ -214,7 +231,6 @@
     <button class="lightbox-close" aria-label="Fermer">×</button>
     <img id="lightboxImg" src="" alt="">
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
