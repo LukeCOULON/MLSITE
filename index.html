@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MultiLaunch — un launcher local pour organiser, détecter, configurer et lancer vos jeux sous Windows et Linux.">
+  <title>MultiLaunch — Votre bibliothèque. Un seul launcher.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="MultiLaunch">
+      <span class="brand-mark">M</span>
+      <span>
+        <strong>MultiLaunch</strong>
+        <small>Launcher de jeux</small>
+      </span>
+    </a>
+    <nav>
+      <a href="#features">Fonctionnalités</a>
+      <a href="#screens">Aperçu</a>
+      <a href="#install">Installation</a>
+    </nav>
+    <a class="nav-cta" href="#install">Obtenir MultiLaunch ↗</a>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> MULTILAUNCH 0.0.6</div>
+        <h1>Votre bibliothèque.<br><em>Un seul launcher.</em></h1>
+        <p class="hero-text">
+          MultiLaunch centralise vos jeux dans une interface locale pensée pour
+          détecter vos installations, gérer leur configuration et les lancer
+          depuis un seul endroit.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#install">Installer maintenant <span>→</span></a>
+          <a class="button secondary" href="#screens">Voir l'interface</a>
+        </div>
+        <div class="trust-row">
+          <span>✓ Windows</span>
+          <span>✓ Linux</span>
+          <span>✓ Python 3</span>
+          <span>✓ Local</span>
+        </div>
+      </div>
+
+      <div class="hero-window">
+        <div class="window-top">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          <span class="window-title">MultiLaunch</span>
+          <span class="window-version">0.0.6</span>
+        </div>
+        <div class="window-body">
+          <div class="mini-sidebar">
+            <div class="mini-search">Rechercher...</div>
+            <div class="game active">Crossout <b>Windows</b></div>
+            <div class="game">Green Demo <b>Windows</b></div>
+            <div class="game">One-armed cook <b>Windows</b></div>
+            <div class="game">Proton 11.0 <b>Windows</b></div>
+            <div class="game">Grand Theft Auto V <b>Wine</b></div>
+            <div class="game">Scrap Mechanic <b>Wine</b></div>
+          </div>
+          <div class="mini-panel">
+            <small>CONFIGURATION DU JEU</small>
+            <h3>Crossout</h3>
+            <div class="fake-field">Crossout.exe</div>
+            <div class="fake-field">wine</div>
+            <div class="fake-field"></div>
+            <div class="fake-buttons"><i>Enregistrer</i><i>Lancer</i><i>Diagnostiquer</i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats container">
+      <div><strong>1</strong><span>interface centrale</span></div>
+      <div><strong>∞</strong><span>jeux à organiser</span></div>
+      <div><strong>2</strong><span>plateformes supportées</span></div>
+      <div><strong>0</strong><span>compte obligatoire</span></div>
+    </section>
+
+    <section id="features" class="section container">
+      <div class="section-heading">
+        <div class="eyebrow"><span></span> CE QUE FAIT MULTILAUNCH</div>
+        <h2>Tout ce qu'il faut pour<br>gérer votre bibliothèque.</h2>
+        <p>Une application simple, locale et orientée jeu, sans multiplier les launchers.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature featured">
+          <div class="icon">⌕</div>
+          <h3>Détection des jeux</h3>
+          <p>Scannez les installations locales et identifiez les exécutables utilisables sans modifier vos jeux.</p>
+          <span class="tag">SCANNER NON DESTRUCTIF</span>
+        </article>
+        <article class="feature">
+          <div class="icon">▶</div>
+          <h3>Lancement centralisé</h3>
+          <p>Lancez vos titres depuis une bibliothèque unique avec le backend adapté à votre configuration.</p>
+        </article>
+        <article class="feature">
+          <div class="icon">⚙</div>
+          <h3>Configuration avancée</h3>
+          <p>Gérez le backend, le préfixe Wine, le répertoire de travail, les arguments et les variables d'environnement.</p>
+        </article>
+        <article class="feature">
+          <div class="icon">⌁</div>
+          <h3>Wine & Proton</h3>
+          <p>Une interface pensée pour les configurations Windows natives, Wine et Proton.</p>
+        </article>
+        <article class="feature">
+          <div class="icon">◫</div>
+          <h3>Diagnostic & logs</h3>
+          <p>Accédez aux outils de diagnostic, aux dossiers des jeux et aux logs depuis l'interface.</p>
+        </article>
+        <article class="feature">
+          <div class="icon">▣</div>
+          <h3>Installation intégrée</h3>
+          <p>L'installateur configure le programme pour Windows ou Linux et crée les raccourcis adaptés.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="screens" class="section screenshots-section">
+      <div class="container">
+        <div class="section-heading split">
+          <div>
+            <div class="eyebrow"><span></span> APERÇU</div>
+            <h2>Une interface claire.<br>Des outils concrets.</h2>
+          </div>
+          <p>Voici l'interface actuelle de MultiLaunch, directement issue du projet.</p>
+        </div>
+        <div class="screens-grid">
+          <button class="screen-card large" data-image="assets/screenshot-1.png">
+            <img src="assets/screenshot-1.png" alt="MultiLaunch avec la fenêtre de jeux détectés" loading="lazy">
+            <span>Détection des jeux <b>↗</b></span>
+          </button>
+          <button class="screen-card" data-image="assets/screenshot-2.png">
+            <img src="assets/screenshot-2.png" alt="MultiLaunch avec la boîte de mise à jour" loading="lazy">
+            <span>Mises à jour <b>↗</b></span>
+          </button>
+          <button class="screen-card" data-image="assets/screenshot-3.png">
+            <img src="assets/screenshot-3.png" alt="Écran de configuration MultiLaunch" loading="lazy">
+            <span>Configuration <b>↗</b></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="install" class="install-section">
+      <div class="container install-wrap">
+        <div class="section-heading">
+          <div class="eyebrow"><span></span> INSTALLATION</div>
+          <h2>Prêt à lancer<br><em>MultiLaunch ?</em></h2>
+          <p>Clonez le dépôt officiel puis lancez l'installateur. Une seule commande suffit.</p>
+        </div>
+
+        <div class="terminal">
+          <div class="terminal-head">
+            <span><i></i><i></i><i></i></span>
+            <span>terminal</span>
+            <button id="copyBtn">Copier</button>
+          </div>
+          <pre id="command">git clone https://github.com/LukeCOULON/multilaunch-install.git && cd multilaunch-install && python3 install.py</pre>
+          <div id="copyStatus" class="copy-status" aria-live="polite"></div>
+        </div>
+
+        <div class="install-notes">
+          <div><b>01</b><span>Clonez le dépôt</span><small>Récupère les fichiers d'installation depuis GitHub.</small></div>
+          <div><b>02</b><span>Lancez install.py</span><small>L'installateur détecte ou demande la plateforme cible.</small></div>
+          <div><b>03</b><span>Lancez MultiLaunch</span><small>Retrouvez ensuite votre bibliothèque dans l'application.</small></div>
+        </div>
+
+        <div class="repo-row">
+          <span>Projet développé par <strong>Luke Coulon</strong></span>
+          <a href="https://github.com/LukeCOULON/multilaunch-install" target="_blank" rel="noopener">Voir le dépôt GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq container">
+      <div class="section-heading">
+        <div class="eyebrow"><span></span> QUESTIONS</div>
+        <h2>Avant de commencer.</h2>
+      </div>
+      <details open>
+        <summary>Sur quelles plateformes MultiLaunch fonctionne-t-il ? <span>+</span></summary>
+        <p>La version actuelle de l'installateur prévoit une installation pour Linux et Windows.</p>
+      </details>
+      <details>
+        <summary>Est-ce que MultiLaunch modifie mes jeux ? <span>+</span></summary>
+        <p>Le scanner de détection fourni dans le projet est documenté comme non destructif : il ne lance pas les exécutables et ne modifie ni les jeux ni les préfixes Wine.</p>
+      </details>
+      <details>
+        <summary>Où sont stockées les données ? <span>+</span></summary>
+        <p>L'installateur crée un espace de données dans le dossier utilisateur, notamment <code>Documents/MultiLaunch/data.json</code>.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="brand"><span class="brand-mark">M</span><strong>MultiLaunch</strong></div>
+      <span>© 2026 Luke Coulon · Version 0.0.6</span>
+      <a href="https://github.com/LukeCOULON/multilaunch-install" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Fermer">×</button>
+    <img id="lightboxImg" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
