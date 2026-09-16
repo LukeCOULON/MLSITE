@@ -165,7 +165,7 @@
             <span>terminal</span>
             <button id="copyBtn">Copier</button>
           </div>
-          <pre id="command">git clone https://github.com/LukeCOULON/multilaunch-install.git && cd multilaunch-install && python3 install.py</pre>
+          <pre id="command">Invoke-WebRequest -Uri "https://github.com/LukeCOULON/multilaunch-install/archive/refs/heads/main.zip" -OutFile "multilaunch.zip"; Expand-Archive "multilaunch.zip" -DestinationPath "." -Force; cd "multilaunch-install-main"; python install.py</pre>
           <div id="copyStatus" class="copy-status" aria-live="polite"></div>
         </div>
 
